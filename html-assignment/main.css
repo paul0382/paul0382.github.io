@@ -1,0 +1,38 @@
+body{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: royalblue;
+}
+
+.site-title {
+    color: lightblue;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul li {
+    list-style: square;
+}
+
+.hobby-list li:nth-child(odd) {
+    background-color: lightpink;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none; 
+    background-color: black;
+    padding: 10 px 16 px;   
+}
+
+nav ul li a:hover, 
+nav ul li a:focus {
+background-color: green; 
+}
+
+
